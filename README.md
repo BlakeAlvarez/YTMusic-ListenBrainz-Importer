@@ -23,6 +23,7 @@ I have taken *heavy* inspiration from this Gist made by Fuddl: https://gist.gith
 1. Download the `ytmusic-listenbrainz-importer.py` file
 2. Place the `watch-history.html` file in the same directory as the python file (alternatively, specify the file path in the `file_path` variable near the top of the script)
 3. Enter your ListenBrainz User token in the `listenbrainz_token` variable within `ytmusic-listenbrainz-importer.py`
+4. Set the `min_timestamp` variable to the start date of your choosing. (The script only imports listens after the set timestamp. Defaults to year 2000 (keeps everything), use epochconverter.com to get a timestamp for a specific cutoff date.)
 
 ### Step 3: Run the Script
 Open a terminal or command prompt and navigate to the directory that contains the takout data and python script. Run the script with the following command:
