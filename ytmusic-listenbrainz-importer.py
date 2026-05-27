@@ -7,7 +7,8 @@ import time
 
 # enter your ListenBrainz token here (https://listenbrainz.org/settings/)
 listenbrainz_token = 'listenbrainz_token_here'
-min_timestamp = 963792000
+# set your beginning timestamp here (https://www.epochconverter.com/)
+min_timestamp = 946684800
 file_path = r'file_path_here'
 
 TIMEZONE_OFFSETS = {
